@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fotoooootjess</title>
+    <link rel="stylesheet" href="photos.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2">
+            <label for="c2" class="card">
+                <div class="row">
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3">
+            <label for="c3" class="card">
+                <div class="row">
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4">
+            <label for="c4" class="card">
+                <div class="row">
+
+                </div>
+            </label>
+        </div>
+    </div>
+    <audio id="song">
+        <source src="honey-jam-royalty-free-lofi-music.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+        });
+
+    </script>
+</body>
+
+</html>

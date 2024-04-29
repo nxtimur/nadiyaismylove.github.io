@@ -13,7 +13,6 @@
     </head>
 
 <body>
-
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake">
             <div class="inner">♡</div>
@@ -79,7 +78,15 @@
             </script>
         </div>
     </div>
+    <audio id="song">
+        <source src="honey-jam-royalty-free-lofi-music.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+        });
 
+    </script>
 </body>
 
 </html>
